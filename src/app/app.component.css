@@ -1,0 +1,172 @@
+/*
+* Background-black Content:
+*/
+@keyframes github-logo-anim {
+    0%   {left:2vw; top:2vh;}
+    25%  {left:50vw; top:0px;}
+    50%  {left:15vw; top:75vh;}
+    75%  {left:75vw; top:15vh;}
+    100% {left:2vw; top:2vh;}
+}
+
+@keyframes linkedin-logo-anim {
+    0%   {left:75vw; top:75vh;}
+    25%  {left:50vw; top:85px;}
+    50%  {left:90vw; top:15vh;}
+    75%  {left:5vw; top:75vh;}
+    100% {left:75vw; top:75vh;}
+}
+
+@keyframes background-black-anim {
+    0% {background: linear-gradient(185deg, rgba(11,60,60,1) 0%, rgb(165, 164, 164) 100%);}
+    5% {background: linear-gradient(185deg, rgba(11,65,60,1) 0%, rgb(165, 164, 164) 100%);}
+    10% {background: linear-gradient(185deg, rgba(11,70,60,1) 0%, rgb(165, 164, 164) 100%);}
+    15% {background: linear-gradient(185deg, rgba(11,75,60,1) 0%, rgb(165, 164, 164) 100%);}
+    20% {background: linear-gradient(185deg, rgba(11,80,60,1) 0%, rgb(165, 164, 164) 100%);}
+    25% {background: linear-gradient(185deg, rgb(11, 85, 60, 1) 0%, rgb(165, 164, 164) 100%);}
+    30% {background: linear-gradient(185deg, rgb(11, 90, 60, 1) 0%, rgb(165, 164, 164) 100%);}
+    35% {background: linear-gradient(185deg, rgb(11, 95, 60, 1) 0%, rgb(165, 164, 164) 100%);}
+    40% {background: linear-gradient(185deg, rgb(11, 100, 60, 1) 0%, rgb(165, 164, 164) 100%);}
+    45% {background: linear-gradient(185deg, rgb(11, 105, 60, 1) 0%, rgb(165, 164, 164) 100%);}
+    50% {background: linear-gradient(185deg, rgb(11, 110, 60, 1) 0%, rgb(165, 164, 164) 100%);}
+    50% {background: linear-gradient(185deg, rgb(11, 110, 70, 1) 0%, rgb(165, 164, 164) 100%);}
+    55% {background: linear-gradient(185deg, rgb(11, 105, 80, 1) 0%, rgb(165, 164, 164) 100%);}
+    60% {background: linear-gradient(185deg, rgb(11, 100, 90, 1) 0%, rgb(165, 164, 164) 100%);}
+    65% {background: linear-gradient(185deg, rgb(11, 95, 100, 1) 0%, rgb(165, 164, 164) 100%);}
+    70% {background: linear-gradient(185deg, rgb(11, 90, 100, 1) 0%, rgb(165, 164, 164) 100%);}
+    75% {background: linear-gradient(185deg, rgb(11, 85, 100, 1) 0%, rgb(165, 164, 164) 100%);}
+    80% {background: linear-gradient(185deg, rgb(11, 80, 90, 1) 0%, rgb(165, 164, 164) 100%);}
+    85% {background: linear-gradient(185deg, rgb(11, 75, 80, 1) 0%, rgb(165, 164, 164) 100%);}
+    90% {background: linear-gradient(185deg, rgb(11, 70, 70, 1) 0%, rgb(165, 164, 164) 100%);}
+    95% {background: linear-gradient(185deg, rgb(11, 65, 60, 1) 0%, rgb(165, 164, 164) 100%);}
+    100% {background: linear-gradient(185deg, rgb(11, 60, 60, 1) 0%, rgb(165, 164, 164) 100%);}
+}
+
+#background-black {
+    background: rgb(160, 151, 151);
+    background: linear-gradient(185deg, rgba(10,60,60,1) 0%, rgb(165, 164, 164) 100%);
+    width: 100%;
+    height: calc(100vh - 17px);
+
+    animation-name: background-black-anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#container {
+    width: 100%;
+    height: calc(100vh - 120px);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#github-div {
+    width: 50px;
+    height: 50px;
+
+    position: relative;
+
+    animation-name: github-logo-anim;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#linkedin-div {
+    width: 50px;
+    height: 50px;
+
+    position: relative;
+
+    left: 75vw;
+    top: 75vh;
+
+    animation-name: linkedin-logo-anim;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+/*
+* *
+*/
+
+/*
+* Menu Content:
+*/
+@keyframes menu-choice-anim {
+    0% {width: 1vw; height: 1vh;}
+    100% {width: 25vw; height: 25vh;}
+}
+
+@keyframes menu-choice-btn-anim {
+    0% {width: 0vw; height: 0vh;}
+    100% {width: 10vw}
+}
+
+@keyframes basic-btn-anim {
+    0% {position: relative; z-index: -1;}
+}
+
+#menu-choice {
+    width: 25vw;
+    height: 25vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: menu-choice-anim;
+    animation-duration: 1s;
+}
+
+#menu-btn {
+    display: inline;
+    width: 10vw;
+
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+
+    animation-name: menu-choice-btn-anim;
+    animation-duration: 1s;
+}
+
+.basic-btn {
+    animation-name: basic-btn-anim;
+    animation-duration: 1s;
+
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+div#menu-btn:hover {
+    background-color:  rgba(10,60,60,1);
+    color:  white;
+}
+/*
+* *
+*/
+
+/*
+* Footer ID Classifications:
+*/
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+/*
+* *
+*/
