@@ -94,25 +94,6 @@
 */
 
 /*
-* Content Pane Classifications:
-*/
-#content-pane {
-    background-color: white;
-    color: black;
-    width: 75vw;
-    height: 75vh;
-
-    display: none;
-}
-
-.option-1-header-text {
-    width: 20vw;
-    height: 5vw;
-
-    margin: 1vmax;
-}
-
-/*
 * Footer ID Classifications:
 */
 #footer {
