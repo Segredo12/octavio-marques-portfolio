@@ -1,0 +1,45 @@
+/*
+* Content Pane Classifications:
+*/
+@keyframes content-pane-anim {
+    0% {width: 1vw; height: 1vh;}
+    100% {width: 75vw; height: 75vh;}
+}
+
+@keyframes text-containers {
+    0% {position: relative; z-index: -1;}
+}
+
+#content-pane {
+    background-color: white;
+    color: black;
+    width: 75vw;
+    height: 75vh;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 15px 10px rgb(14, 80, 80);
+
+    animation-name: content-pane-anim;
+    animation-duration: 1s;
+}
+
+.header-text {
+    width: 50%;
+    height: 10%;
+
+    margin: 2%;
+
+    animation-name: text-containers;
+    animation-duration: 1s;
+}
+
+.back-btn {
+    width: 20%;
+    height: 5%;
+
+    margin: 2%;
+
+    animation-name: text-containers;
+    animation-duration: 1s;
+}

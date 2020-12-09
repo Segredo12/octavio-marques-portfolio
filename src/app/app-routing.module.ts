@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: 'who-am-i', component: WhoamiComponent },
   { path: 'education', component: EducationComponent },
   { path: 'projects', component: ProjectsComponent },
-  { path: 'skills', component: SkillsComponent }
+  { path: 'skills', component: SkillsComponent },
+  { path: '**', redirectTo: '/menu', pathMatch: 'full'}
 ];
 
 @NgModule({
