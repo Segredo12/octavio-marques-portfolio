@@ -21,7 +21,7 @@
 }
 
 .header-text {
-    width: 25%;
+    width: 50%;
     height: 10%;
 
     margin: 2%;
@@ -37,6 +37,9 @@
     margin: 2%;
 
     text-align: justify;
+
+    overflow:scroll;
+    overflow-x:hidden;
 
     animation-name: text-containers;
     animation-duration: 1s;
