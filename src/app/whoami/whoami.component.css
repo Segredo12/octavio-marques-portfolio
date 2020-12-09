@@ -10,19 +10,7 @@
     0% {position: relative; z-index: -1;}
 }
 
-#content-pane {
-    background-color: white;
-    color: black;
-    width: 75vw;
-    height: 75vh;
 
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 15px 10px rgb(14, 80, 80);
-
-    animation-name: content-pane-anim;
-    animation-duration: 1s;
-}
 
 .header-text {
     width: 50%;
@@ -39,11 +27,6 @@
     height: 70%;
 
     margin: 2%;
-
-    text-align: justify;
-
-    overflow:scroll;
-    overflow-x:hidden;
 
     animation-name: text-containers;
     animation-duration: 1s;
