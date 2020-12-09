@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.back-btn {
+    width: 10%;
+    height: 5%;
+
+    margin: 2%;
+
+    animation-name: text-containers;
+    animation-duration: 1s;
+}
