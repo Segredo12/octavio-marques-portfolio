@@ -1,0 +1,59 @@
+/*
+* Menu Content:
+*/
+@keyframes menu-choice-anim {
+    0% {width: 1vw; height: 1vh;}
+    100% {width: 25vw; height: 25vh;}
+}
+
+@keyframes menu-choice-btn-anim {
+    0% {width: 0vw; height: 0vh;}
+    100% {width: 10vw}
+}
+
+@keyframes basic-btn-anim {
+    0% {position: relative; z-index: -1;}
+}
+
+#menu-choice {
+    width: 25vw;
+    height: 25vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: menu-choice-anim;
+    animation-duration: 1s;
+}
+
+#menu-btn {
+    display: inline;
+    width: 10vw;
+
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+
+    animation-name: menu-choice-btn-anim;
+    animation-duration: 1s;
+}
+
+.basic-btn {
+    animation-name: basic-btn-anim;
+    animation-duration: 1s;
+
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+div#menu-btn:hover {
+    background-color:  rgba(10,60,60,1);
+    color:  white;
+}
+/*
+* *
+*/

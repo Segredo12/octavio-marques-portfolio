@@ -10,18 +10,22 @@ export class AppComponent {
   version = "1.0.0";
 
   onClickWhoAmI() {
-    document.getElementById("container")!.style.display = "none";
+    document.getElementById("menu-choice")!.style.display = "none";
+    document.getElementById("content-pane")!.style.display = "flex";
   }
 
   onClickEducation() {
-    document.getElementById("container")!.style.display = "none";
+    document.getElementById("menu-choice")!.style.display = "none";
+    document.getElementById("content-pane")!.style.display = "flex";
   }
 
   onClickProjects() {
-    document.getElementById("container")!.style.display = "none";
+    document.getElementById("menu-choice")!.style.display = "none";
+    document.getElementById("content-pane")!.style.display = "flex";
   }
 
   onClickSkills() {
-    document.getElementById("container")!.style.display = "none";
+    document.getElementById("menu-choice")!.style.display = "none";
+    document.getElementById("content-pane")!.style.display = "flex";
   }
 }
