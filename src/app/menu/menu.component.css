@@ -37,6 +37,8 @@
     margin: 10px;
     text-align: center;
 
+    z-index: 1;
+
     animation-name: menu-choice-btn-anim;
     animation-duration: 1s;
 }
