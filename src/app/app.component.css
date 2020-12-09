@@ -49,7 +49,7 @@
     height: calc(100vh - 17px);
 
     animation-name: background-black-anim;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
