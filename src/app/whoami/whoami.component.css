@@ -36,6 +36,8 @@
 
     margin: 2%;
 
+    text-align: justify;
+
     animation-name: text-containers;
     animation-duration: 1s;
 }
