@@ -1,0 +1,30 @@
+.skills-list {
+    width: 98%;
+    height: 75%;
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+.skill-slot {
+    width: 25%;
+    height: 40%;
+
+    margin: 3%;
+}
+
+.skill-slot-header {
+    width: 98%;
+    height: 15%;
+
+    text-align: center;
+}
+
+.skill-slot-avaliation-slot {
+    width: 98%;
+    height: 80%;
+}
