@@ -1,0 +1,43 @@
+.projects-container {
+    width: 95%;
+    height: 75%;
+    margin: 2%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.projects-slot {
+    width: 35%;
+    height: 90%;
+    margin: 2%;
+}
+
+.projects-slot-header {
+    width: 98%;
+    height: 10%;
+    text-align: center;
+}
+
+.projects-slot-description {
+    width: 98%;
+    height: 70%;
+    text-align: justify;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.projects-slot-footer {
+    width: 98%;
+    height: 12%;
+    text-align: center;
+}
+
+a {
+    color: rgba(10,60,60,1);
+}
