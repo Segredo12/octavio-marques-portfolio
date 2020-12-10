@@ -1,17 +1,3 @@
-/*
-* Content Pane Classifications:
-*/
-@keyframes content-pane-anim {
-    0% {width: 1vw; height: 1vh;}
-    100% {width: 75vw; height: 75vh;}
-}
-
-@keyframes text-containers {
-    0% {position: relative; z-index: -1;}
-}
-
-
-
 .header-text {
     width: 50%;
     height: 10%;
@@ -22,12 +8,55 @@
     animation-duration: 1s;
 }
 
-.description-text {
-    width: 90%;
+.description-slot {
+    width: 95%;
     height: 70%;
 
     margin: 2%;
 
     animation-name: text-containers;
     animation-duration: 1s;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.description-text {
+    width: 70%;
+    height: 90%;
+
+    margin: 2%;
+
+    animation-name: text-containers;
+    animation-duration: 1s;
+}
+
+.description-profile-slot {
+    width: 30%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 2%;
+}
+
+.description-thumbnail {
+    width: 95%;
+    height: 50%;
+
+    margin: 2%;
+
+    animation-name: text-containers;
+    animation-duration: 1s;
+}
+
+.description-info {
+    width: 95%;
+    height: 10%;
+    margin: 2%;
+}
+
+a {
+    color: rgba(10,60,60,1);
 }
