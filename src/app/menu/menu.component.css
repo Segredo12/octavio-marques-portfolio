@@ -1,6 +1,12 @@
-/*
-* Menu Content:
-*/
+@media only screen and (max-width: 500px) { 
+    #menu-choice {
+        width: 100vw !important;
+    }
+    #menu-btn {
+        width: 50vw !important;
+    }
+}
+
 @keyframes menu-choice-anim {
     0% {width: 1vw; height: 1vh;}
     100% {width: 25vw; height: 25vh;}

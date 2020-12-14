@@ -1,3 +1,30 @@
+@media only screen and (max-width: 500px) { 
+    .background-black {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    #github-div{
+        animation-name: none !important;
+        position: fixed !important;
+        left: 15% !important;
+        top: 90% !important;
+    }
+
+    #linkedin-div {
+        animation-name: none !important;
+        position: fixed !important;
+        left: 70% !important;
+        top: 90% !important;
+    }
+    #container {
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-content: center !important;
+    }
+}
 /*
 * Background-black Content:
 */

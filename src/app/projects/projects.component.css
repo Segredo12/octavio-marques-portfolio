@@ -1,3 +1,43 @@
+@media only screen and (max-width: 500px) { 
+    #content-pane {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-content: center !important;
+        overflow: auto;
+        margin-top: 5rem !important;
+    }
+    .projects-container {
+        width: 100% !important;
+        height: 100% !important;
+        overflow: auto !important;
+    }
+    .projects-slot {
+        width: 100% !important;
+    }
+    .projects-slot-header {
+        margin-bottom: 10px !important;
+    }
+    .header-text {
+        width: 50% !important;
+        display: flex !important;
+        align-self: center !important;
+        justify-content: center !important;
+    }
+    .back-btn {
+        width: 10% !important;
+        height: 10% !important;
+        align-self: center !important;
+        position: absolute !important;
+        top: 88% !important;
+    }
+    a {
+        width: 100% !important;
+    }
+    img {
+        width: 100% !important;
+    }
+}
 .projects-container {
     width: 95%;
     height: 75%;

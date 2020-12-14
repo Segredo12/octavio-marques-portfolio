@@ -1,3 +1,38 @@
+@media only screen and (max-width: 500px) {
+    #content-pane {
+        display: flex !important;
+        flex-direction: column !important;
+        overflow: auto;
+        margin-top: 5rem !important;
+    }
+    .header-text {
+        width: 100% !important;
+    }
+    .description-slot {
+        width: 100% !important;
+        height: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+
+        overflow: auto;
+    }
+    .description-text {
+        width: 100% !important;
+        height: 100% !important;
+        overflow: scroll !important;
+    }
+    .description-profile-slot {
+        width: 100% !important;
+    }
+    .back-btn {
+        width: 60% !important;
+        height: 10% !important;
+        align-self: center !important;
+        position: absolute !important;
+        top: 88% !important;
+    }
+}
+
 .header-text {
     width: 50%;
     height: 10%;

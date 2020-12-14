@@ -1,3 +1,42 @@
+@media only screen and (max-width: 500px) { 
+    #content-pane {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-content: center !important;
+        overflow: auto;
+        margin-top: 5rem !important;
+    }
+    .education-main-div {
+        width: 100% !important;
+        height: 80% !important;
+        flex-wrap: nowrap !important;
+        flex-direction: column !important;
+    }
+    .education-divider {
+        width: 100% !important;
+        height: 90% !important; 
+        margin-bottom: 2rem !important;
+    }
+    .education-divider-description {
+        overflow: auto !important;
+        height: 80% !important;
+    }
+
+    .back-btn {
+        width: 10% !important;
+        height: 10% !important;
+        align-self: center !important;
+        position: absolute !important;
+        top: 88% !important;
+    }
+    a {
+        width: 100% !important;
+    }
+    img {
+        width: 100% !important;
+    }
+}
 /*
 * Content Pane Classifications:
 */
