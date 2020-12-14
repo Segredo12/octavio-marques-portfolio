@@ -4,24 +4,24 @@
     </div>
 
     <div class="projects-container">
-      <div class="projects-slot">
+      <div class="projects-slot" *ngFor="let project of projectsList">
         <div class="projects-slot-header">
-          <h3>The Power of Touch, Technologies</h3>
+          <h3>{{project.title}}</h3>
         </div>
         <div class="projects-slot-description">
-          <p>PoTT is the leading company for the M-SMART project, a Biometric Security Technology R&D initiative developed at Madeira Living Lab.</p>
-          <p>Supported by a consortium between the regional ICT industry, Tactilis and the University of Madeira, a broad set of e-ID, payment, authentication, secure archiving and biometric signature applications and solutions are under research and development.</p>
-          <p>Through an agreement signed with the Regional Government of Madeira, 25 multi-sector demonstration pilots have been identified to be developed for 10 different entities.</p>
+          <p *ngFor="let text of project.textList">
+            {{text.text}}
+          </p>
         </div>
         <div class="projects-slot-footer">
-          <a href="https://www.pwtouch.com/" target="_blank">Visit Website</a>
+          <a href="{{project.url}}" target="_blank">Visit Website</a>
         </div>
       </div>
     </div>
     
     <div class="back-btn">
         <a  routerLink="/menu">
-          <img src="../../assets/images/icon/go-back-arrow.png" width="25%" height="100%">
+          <img src="{{backBtnURL}}" width="25%" height="100%">
         </a>
       </div>
 </div>
