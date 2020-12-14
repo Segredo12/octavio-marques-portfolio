@@ -3,84 +3,21 @@
         <h1>Skills:</h1>
     </div>
 
+
     <div class="skills-list">
-      <!-- JAVA SLOT -->
-      <div class="skill-slot">
+      <div class="skill-slot" *ngFor="let skill of skills">
         <div class="skill-slot-header">
-          <h2>Java</h2>
+          <h2>{{skill.label}}</h2>
         </div>
         <div class="skill-slot-avaliation-slot">
-          <img src="../../assets/images/icon/avaluation_med.png" width="98%" height="98%">
-        </div>
-      </div>
-      <!-- PYTHON SLOT -->
-      <div class="skill-slot">
-        <div class="skill-slot-header">
-          <h2>Python</h2>
-        </div>
-        <div class="skill-slot-avaliation-slot">
-          <img src="../../assets/images/icon/avaluation_low.png" width="98%" height="98%">
-        </div>
-      </div>
-      <!-- JAVASCRIPT SLOT -->
-      <div class="skill-slot">
-        <div class="skill-slot-header">
-          <h2>Javascript</h2>
-        </div>
-        <div class="skill-slot-avaliation-slot">
-          <img src="../../assets/images/icon/avaluation_med.png" width="98%" height="98%">
-        </div>
-      </div>
-      <!-- C++ SLOT -->
-      <div class="skill-slot">
-        <div class="skill-slot-header">
-          <h2>C++</h2>
-        </div>
-        <div class="skill-slot-avaliation-slot">
-          <img src="../../assets/images/icon/avaluation_starter.png" width="98%" height="98%">
-        </div>
-      </div>
-      <!-- PHP SLOT -->
-      <div class="skill-slot">
-        <div class="skill-slot-header">
-          <h2>PHP</h2>
-        </div>
-        <div class="skill-slot-avaliation-slot">
-          <img src="../../assets/images/icon/avaluation_starter.png" width="98%" height="98%">
-        </div>
-      </div>
-      <!-- SQL SLOT -->
-      <div class="skill-slot">
-        <div class="skill-slot-header">
-          <h2>SQL</h2>
-        </div>
-        <div class="skill-slot-avaliation-slot">
-          <img src="../../assets/images/icon/avaluation_med.png" width="98%" height="98%">
-        </div>
-      </div>
-      <!-- ANGULAR SLOT -->
-      <div class="skill-slot">
-        <div class="skill-slot-header">
-          <h2>Angular</h2>
-        </div>
-        <div class="skill-slot-avaliation-slot">
-          <img src="../../assets/images/icon/avaluation_low.png" width="98%" height="98%">
-        </div>
-      </div>
-      <!-- CSS SLOT -->
-      <div class="skill-slot">
-        <div class="skill-slot-header">
-          <h2>CSS</h2>
-        </div>
-        <div class="skill-slot-avaliation-slot">
-          <img src="../../assets/images/icon/avaluation_med.png" width="98%" height="98%">
+          <img src="{{skill.imgURL}}" width="98%" height="98%">
         </div>
       </div>
     </div>
     
     <div class="back-btn">
         <a  routerLink="/menu">
-          <img src="../../assets/images/icon/go-back-arrow.png" width="25%" height="100%">
+          <img src="{{backBtnURL}}" width="25%" height="100%">
         </a>
       </div>
 </div>
