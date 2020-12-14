@@ -1,6 +1,6 @@
 <div id="content-pane">
     <div class="header-text">
-      <h1>Octávio Marques</h1>
+      <h1>{{name}}</h1>
     </div>
     <div class="description-slot">
       <div class="description-text descriptions">
@@ -19,25 +19,25 @@
       </div>
       <div class="description-profile-slot">
         <div class="description-thumbnail">
-          <img src="../../assets/images/icon/profile.png" width="100%" height="100%">
+          <img src="{{profile_img_path}}" width="100%" height="100%">
         </div>
         <div class="description-info">
-          <img src="../../assets/images/icon/location.png" width="20%" height="100%">
-          Madeira Island - Funchal
+          <img src="{{location_logo_path}}" width="20%" height="100%">
+          {{location}}
         </div>
         <div class="description-info">
-          <img src="../../assets/images/icon/age.png" width="20%" height="100%">
-          Age 24
+          <img src="{{age_logo_path}}" width="20%" height="100%">
+          Age {{age}}
         </div>
         <div class="description-info">
-          <img src="../../assets/images/icon/work.png" width="20%" height="100%">
-          Currently working on <a href="https://www.xis-group.com/" target="_blank">XIS Group</a>
+          <img src="{{work_logo_path}}" width="20%" height="100%">
+          Currently working on <a href="{{work_location_url}}" target="_blank">{{work_location_name}}</a>
         </div>
       </div>
     </div>
     <div class="back-btn">
       <a  routerLink="/menu">
-        <img src="../../assets/images/icon/go-back-arrow.png" width="25%" height="100%">
+        <img src="{{backBtnURL}}" width="25%" height="100%">
       </a>
     </div>
 </div>

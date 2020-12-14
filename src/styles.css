@@ -35,6 +35,6 @@
 .descriptions {
     text-align: justify;
 
-    overflow:scroll;
-    overflow-x:hidden;
+    overflow: auto;
+    overflow-x: hidden;
 }
